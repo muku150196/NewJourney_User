@@ -1,202 +1,513 @@
-13:20:52.831 [main] TRACE - Resolving type for handle ctworkbookpr03a5type
-13:20:52.865 [main] TRACE - Resolving type for handle ctbookviewsb864type
-13:20:52.865 [main] TRACE - Resolving type for handle ctbookviewf677type
-13:20:52.880 [main] TRACE - Resolving type for handle ctsheets49fdtype
-13:20:52.892 [main] TRACE - Resolving type for handle propertiesee84doctype
-13:20:52.908 [main] TRACE - Resolving type for handle ctproperties3f10type
-13:20:52.914 [main] TRACE - Resolving type for handle properties288cdoctype
-13:20:52.914 [main] TRACE - Resolving type for handle ctproperties2c18type
-13:20:52.936 [main] TRACE - Resolving type for handle sstf81fdoctype
-13:20:52.938 [main] TRACE - Resolving type for handle ctsst44f3type
-13:20:52.946 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
-13:20:52.950 [main] TRACE - Resolving type for handle ctstylesheet4257type
-13:20:52.958 [main] TRACE - Resolving type for handle ctfont14d8type
-13:20:52.963 [main] TRACE - Resolving type for handle ctfontsizeb3b9type
-13:20:52.980 [main] TRACE - Resolving type for handle ctcolord2c2type
-13:20:52.988 [main] TRACE - Resolving type for handle ctfontname2dc3type
-13:20:52.988 [main] TRACE - Resolving type for handle stxstringf179type
-13:20:52.997 [main] TRACE - Resolving type for handle ctfontfamily685ctype
-13:20:52.997 [main] TRACE - Resolving type for handle stfontfamily9c6ctype
-13:20:52.997 [main] TRACE - Resolving type for handle ctfontschemebf5dtype
-13:20:53.014 [main] TRACE - Resolving type for handle stfontschemef36dtype
-13:20:53.018 [main] TRACE - Resolving type for handle ctfill550ctype
-13:20:53.019 [main] TRACE - Resolving type for handle ctpatternfill7452type
-13:20:53.023 [main] TRACE - Resolving type for handle stpatterntype7939type
-13:20:53.025 [main] TRACE - Resolving type for handle ctborderf935type
-13:20:53.030 [main] TRACE - Resolving type for handle ctborderpre497type
-13:20:53.036 [main] TRACE - Resolving type for handle ctxf97f7type
-13:20:53.038 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
-13:20:53.040 [main] TRACE - Resolving type for handle stfontid9d63type
-13:20:53.042 [main] TRACE - Resolving type for handle stfillida097type
-13:20:53.043 [main] TRACE - Resolving type for handle stborderid1a80type
-13:20:53.045 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
-13:20:53.051 [main] TRACE - Resolving type for handle ctsheet4dbetype
-13:20:53.051 [main] TRACE - Resolving type for handle ctworksheet530dtype
-13:20:53.063 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
-13:20:53.063 [main] TRACE - Resolving type for handle ctsheetviewsb918type
-13:20:53.063 [main] TRACE - Resolving type for handle ctsheetview0f43type
-13:20:53.063 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
-13:20:53.079 [main] TRACE - Resolving type for handle stref90a2type
-13:20:53.080 [main] TRACE - Resolving type for handle ctsheetdata8408type
-13:20:53.083 [main] TRACE - Resolving type for handle ctpagemargins5455type
-13:20:53.088 [main] TRACE - Resolving type for handle ctcols627ctype
-13:20:53.091 [main] TRACE - Resolving type for handle strelationshipid1e94type
-13:20:53.093 [main] TRACE - Resolving type for handle ctrowdd39type
-13:20:53.097 [main] TRACE - Resolving type for handle ctcell842btype
-13:20:53.097 [main] TRACE - Resolving type for handle stcellrefe4e0type
-13:20:53.097 [main] TRACE - Resolving type for handle ctrsta472type
-13:20:53.097 [main] TRACE - Resolving type for handle stcelltypebf95type
-13:20:53.274 [main] DEBUG - Save core properties part
-13:20:53.275 [main] DEBUG - Save content types part
-13:20:53.410 [main] DEBUG - Save package relationships
-13:20:53.417 [main] DEBUG - Save part 'docProps/core.xml'
-13:20:53.430 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-13:20:53.430 [main] DEBUG - Save part 'xl/styles.xml'
-13:20:53.448 [main] DEBUG - Save part 'xl/workbook.xml'
-13:20:53.451 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-13:21:51.122 [main] INFO  - Goto crm URL 
-13:21:57.503 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-13:21:57.520 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-13:21:57.520 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-13:21:57.520 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-13:21:57.520 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-13:21:57.520 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-13:21:57.536 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-13:21:57.536 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-13:21:57.553 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-13:21:57.553 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-13:21:57.553 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-13:21:57.553 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-13:21:57.569 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-13:21:57.571 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-13:21:57.652 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-13:21:57.653 [main] TRACE - Resolving type for handle ctworkbook83c3type
-13:21:57.686 [main] TRACE - Resolving type for handle ctworkbookpr03a5type
-13:21:57.686 [main] TRACE - Resolving type for handle ctbookviewsb864type
-13:21:57.702 [main] TRACE - Resolving type for handle ctbookviewf677type
-13:21:57.705 [main] TRACE - Resolving type for handle ctsheets49fdtype
-13:21:57.705 [main] TRACE - Resolving type for handle propertiesee84doctype
-13:21:57.705 [main] TRACE - Resolving type for handle ctproperties3f10type
-13:21:57.719 [main] TRACE - Resolving type for handle properties288cdoctype
-13:21:57.719 [main] TRACE - Resolving type for handle ctproperties2c18type
-13:21:57.719 [main] TRACE - Resolving type for handle sstf81fdoctype
-13:21:57.719 [main] TRACE - Resolving type for handle ctsst44f3type
-13:21:57.736 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
-13:21:57.736 [main] TRACE - Resolving type for handle ctstylesheet4257type
-13:21:57.736 [main] TRACE - Resolving type for handle ctfont14d8type
-13:21:57.752 [main] TRACE - Resolving type for handle ctfontsizeb3b9type
-13:21:57.753 [main] TRACE - Resolving type for handle ctcolord2c2type
-13:21:57.753 [main] TRACE - Resolving type for handle ctfontname2dc3type
-13:21:57.753 [main] TRACE - Resolving type for handle stxstringf179type
-13:21:57.753 [main] TRACE - Resolving type for handle ctfontfamily685ctype
-13:21:57.753 [main] TRACE - Resolving type for handle stfontfamily9c6ctype
-13:21:57.753 [main] TRACE - Resolving type for handle ctfontschemebf5dtype
-13:21:57.768 [main] TRACE - Resolving type for handle stfontschemef36dtype
-13:21:57.771 [main] TRACE - Resolving type for handle ctfill550ctype
-13:21:57.771 [main] TRACE - Resolving type for handle ctpatternfill7452type
-13:21:57.771 [main] TRACE - Resolving type for handle stpatterntype7939type
-13:21:57.771 [main] TRACE - Resolving type for handle ctborderf935type
-13:21:57.771 [main] TRACE - Resolving type for handle ctborderpre497type
-13:21:57.771 [main] TRACE - Resolving type for handle ctxf97f7type
-13:21:57.786 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
-13:21:57.786 [main] TRACE - Resolving type for handle stfontid9d63type
-13:21:57.786 [main] TRACE - Resolving type for handle stfillida097type
-13:21:57.786 [main] TRACE - Resolving type for handle stborderid1a80type
-13:21:57.786 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
-13:21:57.786 [main] TRACE - Resolving type for handle ctsheet4dbetype
-13:21:57.803 [main] TRACE - Resolving type for handle ctworksheet530dtype
-13:21:57.803 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
-13:21:57.818 [main] TRACE - Resolving type for handle ctsheetviewsb918type
-13:21:57.819 [main] TRACE - Resolving type for handle ctsheetview0f43type
-13:21:57.819 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
-13:21:57.819 [main] TRACE - Resolving type for handle stref90a2type
-13:21:57.819 [main] TRACE - Resolving type for handle ctsheetdata8408type
-13:21:57.819 [main] TRACE - Resolving type for handle ctpagemargins5455type
-13:21:57.819 [main] TRACE - Resolving type for handle ctcols627ctype
-13:21:57.834 [main] TRACE - Resolving type for handle strelationshipid1e94type
-13:21:57.836 [main] TRACE - Resolving type for handle ctrowdd39type
-13:21:57.836 [main] TRACE - Resolving type for handle ctcell842btype
-13:21:57.836 [main] TRACE - Resolving type for handle stcellrefe4e0type
-13:21:57.836 [main] TRACE - Resolving type for handle ctrsta472type
-13:21:57.836 [main] TRACE - Resolving type for handle stcelltypebf95type
-13:21:58.024 [main] DEBUG - Save core properties part
-13:21:58.024 [main] DEBUG - Save content types part
-13:21:58.152 [main] DEBUG - Save package relationships
-13:21:58.152 [main] DEBUG - Save part 'docProps/core.xml'
-13:21:58.186 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-13:21:58.186 [main] DEBUG - Save part 'xl/styles.xml'
-13:21:58.186 [main] DEBUG - Save part 'xl/workbook.xml'
-13:21:58.186 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-14:19:32.130 [main] INFO  - Goto crm URL 
-14:19:39.216 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-14:19:39.225 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-14:19:39.228 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-14:19:39.228 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-14:19:39.228 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-14:19:39.228 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-14:19:39.262 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-14:19:39.265 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-14:19:39.277 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-14:19:39.281 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-14:19:39.281 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-14:19:39.281 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-14:19:39.281 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-14:19:39.281 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-14:19:39.365 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-14:19:39.365 [main] TRACE - Resolving type for handle ctworkbook83c3type
-14:19:39.417 [main] TRACE - Resolving type for handle ctworkbookpr03a5type
-14:19:39.437 [main] TRACE - Resolving type for handle ctbookviewsb864type
-14:19:39.441 [main] TRACE - Resolving type for handle ctbookviewf677type
-14:19:39.449 [main] TRACE - Resolving type for handle ctsheets49fdtype
-14:19:39.458 [main] TRACE - Resolving type for handle propertiesee84doctype
-14:19:39.461 [main] TRACE - Resolving type for handle ctproperties3f10type
-14:19:39.472 [main] TRACE - Resolving type for handle properties288cdoctype
-14:19:39.475 [main] TRACE - Resolving type for handle ctproperties2c18type
-14:19:39.478 [main] TRACE - Resolving type for handle sstf81fdoctype
-14:19:39.478 [main] TRACE - Resolving type for handle ctsst44f3type
-14:19:39.494 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
-14:19:39.494 [main] TRACE - Resolving type for handle ctstylesheet4257type
-14:19:39.498 [main] TRACE - Resolving type for handle ctfont14d8type
-14:19:39.511 [main] TRACE - Resolving type for handle ctfontsizeb3b9type
-14:19:39.517 [main] TRACE - Resolving type for handle ctcolord2c2type
-14:19:39.523 [main] TRACE - Resolving type for handle ctfontname2dc3type
-14:19:39.528 [main] TRACE - Resolving type for handle stxstringf179type
-14:19:39.529 [main] TRACE - Resolving type for handle ctfontfamily685ctype
-14:19:39.529 [main] TRACE - Resolving type for handle stfontfamily9c6ctype
-14:19:39.539 [main] TRACE - Resolving type for handle ctfontschemebf5dtype
-14:19:39.544 [main] TRACE - Resolving type for handle stfontschemef36dtype
-14:19:39.550 [main] TRACE - Resolving type for handle ctfill550ctype
-14:19:39.550 [main] TRACE - Resolving type for handle ctpatternfill7452type
-14:19:39.560 [main] TRACE - Resolving type for handle stpatterntype7939type
-14:19:39.563 [main] TRACE - Resolving type for handle ctborderf935type
-14:19:39.569 [main] TRACE - Resolving type for handle ctborderpre497type
-14:19:39.578 [main] TRACE - Resolving type for handle ctxf97f7type
-14:19:39.580 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
-14:19:39.580 [main] TRACE - Resolving type for handle stfontid9d63type
-14:19:39.580 [main] TRACE - Resolving type for handle stfillida097type
-14:19:39.588 [main] TRACE - Resolving type for handle stborderid1a80type
-14:19:39.593 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
-14:19:39.597 [main] TRACE - Resolving type for handle ctsheet4dbetype
-14:19:39.607 [main] TRACE - Resolving type for handle ctworksheet530dtype
-14:19:39.614 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
-14:19:39.623 [main] TRACE - Resolving type for handle ctsheetviewsb918type
-14:19:39.628 [main] TRACE - Resolving type for handle ctsheetview0f43type
-14:19:39.637 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
-14:19:39.640 [main] TRACE - Resolving type for handle stref90a2type
-14:19:39.641 [main] TRACE - Resolving type for handle ctsheetdata8408type
-14:19:39.645 [main] TRACE - Resolving type for handle ctpagemargins5455type
-14:19:39.653 [main] TRACE - Resolving type for handle ctcols627ctype
-14:19:39.661 [main] TRACE - Resolving type for handle strelationshipid1e94type
-14:19:39.661 [main] TRACE - Resolving type for handle ctrowdd39type
-14:19:39.672 [main] TRACE - Resolving type for handle ctcell842btype
-14:19:39.685 [main] TRACE - Resolving type for handle stcellrefe4e0type
-14:19:39.685 [main] TRACE - Resolving type for handle ctrsta472type
-14:19:39.695 [main] TRACE - Resolving type for handle stcelltypebf95type
-14:19:39.978 [main] DEBUG - Save core properties part
-14:19:39.978 [main] DEBUG - Save content types part
-14:19:40.163 [main] DEBUG - Save package relationships
-14:19:40.171 [main] DEBUG - Save part 'docProps/core.xml'
-14:19:40.182 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-14:19:40.182 [main] DEBUG - Save part 'xl/styles.xml'
-14:19:40.194 [main] DEBUG - Save part 'xl/workbook.xml'
-14:19:40.194 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:56:07.224 [main] TRACE - Resolving type for handle stpatterntype7939type
+10:56:07.280 [main] TRACE - Resolving type for handle ctborderf935type
+10:56:07.289 [main] TRACE - Resolving type for handle ctborderpre497type
+10:56:07.305 [main] TRACE - Resolving type for handle ctxf97f7type
+10:56:07.319 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
+10:56:07.322 [main] TRACE - Resolving type for handle stfontid9d63type
+10:56:07.329 [main] TRACE - Resolving type for handle stfillida097type
+10:56:07.334 [main] TRACE - Resolving type for handle stborderid1a80type
+10:56:07.341 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
+10:56:07.362 [main] TRACE - Resolving type for handle ctsheet4dbetype
+10:56:07.376 [main] TRACE - Resolving type for handle ctworksheet530dtype
+10:56:07.394 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
+10:56:07.404 [main] TRACE - Resolving type for handle ctsheetviewsb918type
+10:56:07.409 [main] TRACE - Resolving type for handle ctsheetview0f43type
+10:56:07.420 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
+10:56:07.426 [main] TRACE - Resolving type for handle stref90a2type
+10:56:07.451 [main] TRACE - Resolving type for handle ctsheetdata8408type
+10:56:07.464 [main] TRACE - Resolving type for handle ctpagemargins5455type
+10:56:07.488 [main] TRACE - Resolving type for handle ctcols627ctype
+10:56:07.497 [main] TRACE - Resolving type for handle strelationshipid1e94type
+10:56:07.507 [main] TRACE - Resolving type for handle ctrowdd39type
+10:56:07.526 [main] TRACE - Resolving type for handle ctcell842btype
+10:56:07.552 [main] TRACE - Resolving type for handle stcellrefe4e0type
+10:56:07.559 [main] TRACE - Resolving type for handle ctrsta472type
+10:56:07.567 [main] TRACE - Resolving type for handle stcelltypebf95type
+12:07:34.711 [main] INFO  - Goto crm URL 
+12:07:51.371 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+12:07:51.375 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:07:51.376 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:07:51.377 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:07:51.378 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:07:51.381 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:07:51.400 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:07:51.402 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:07:51.415 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:07:51.418 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:07:51.420 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:07:51.421 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:07:51.422 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:07:51.423 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+12:07:51.483 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+12:07:51.486 [main] TRACE - Resolving type for handle ctworkbook83c3type
+12:07:51.526 [main] TRACE - Resolving type for handle ctworkbookpr03a5type
+12:07:51.571 [main] TRACE - Resolving type for handle ctbookviewsb864type
+12:07:51.574 [main] TRACE - Resolving type for handle ctbookviewf677type
+12:07:51.585 [main] TRACE - Resolving type for handle ctsheets49fdtype
+12:07:51.588 [main] TRACE - Resolving type for handle propertiesee84doctype
+12:07:51.597 [main] TRACE - Resolving type for handle ctproperties3f10type
+12:07:51.599 [main] TRACE - Resolving type for handle properties288cdoctype
+12:07:51.604 [main] TRACE - Resolving type for handle ctproperties2c18type
+12:07:51.608 [main] TRACE - Resolving type for handle sstf81fdoctype
+12:07:51.608 [main] TRACE - Resolving type for handle ctsst44f3type
+12:07:51.616 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
+12:07:51.616 [main] TRACE - Resolving type for handle ctstylesheet4257type
+12:07:51.623 [main] TRACE - Resolving type for handle ctfont14d8type
+12:07:51.642 [main] TRACE - Resolving type for handle ctfontsizeb3b9type
+12:07:51.644 [main] TRACE - Resolving type for handle ctcolord2c2type
+12:07:51.653 [main] TRACE - Resolving type for handle ctfontname2dc3type
+12:07:51.655 [main] TRACE - Resolving type for handle stxstringf179type
+12:07:51.656 [main] TRACE - Resolving type for handle ctfontfamily685ctype
+12:07:51.656 [main] TRACE - Resolving type for handle stfontfamily9c6ctype
+12:07:51.656 [main] TRACE - Resolving type for handle ctfontschemebf5dtype
+12:07:51.662 [main] TRACE - Resolving type for handle stfontschemef36dtype
+12:07:51.666 [main] TRACE - Resolving type for handle ctfill550ctype
+12:07:51.668 [main] TRACE - Resolving type for handle ctpatternfill7452type
+12:07:51.670 [main] TRACE - Resolving type for handle stpatterntype7939type
+12:07:51.672 [main] TRACE - Resolving type for handle ctborderf935type
+12:07:51.674 [main] TRACE - Resolving type for handle ctborderpre497type
+12:07:51.674 [main] TRACE - Resolving type for handle ctxf97f7type
+12:07:51.681 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
+12:07:51.681 [main] TRACE - Resolving type for handle stfontid9d63type
+12:07:51.683 [main] TRACE - Resolving type for handle stfillida097type
+12:07:51.684 [main] TRACE - Resolving type for handle stborderid1a80type
+12:07:51.684 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
+12:07:51.684 [main] TRACE - Resolving type for handle ctsheet4dbetype
+12:07:51.694 [main] TRACE - Resolving type for handle ctworksheet530dtype
+12:07:51.699 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
+12:07:51.704 [main] TRACE - Resolving type for handle ctsheetviewsb918type
+12:07:51.709 [main] TRACE - Resolving type for handle ctsheetview0f43type
+12:07:51.714 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
+12:07:51.714 [main] TRACE - Resolving type for handle stref90a2type
+12:07:51.714 [main] TRACE - Resolving type for handle ctsheetdata8408type
+12:07:51.714 [main] TRACE - Resolving type for handle ctpagemargins5455type
+12:07:51.727 [main] TRACE - Resolving type for handle ctcols627ctype
+12:07:51.731 [main] TRACE - Resolving type for handle strelationshipid1e94type
+12:07:51.733 [main] TRACE - Resolving type for handle ctrowdd39type
+12:07:51.734 [main] TRACE - Resolving type for handle ctcell842btype
+12:07:51.742 [main] TRACE - Resolving type for handle stcellrefe4e0type
+12:07:51.746 [main] TRACE - Resolving type for handle ctrsta472type
+12:07:51.752 [main] TRACE - Resolving type for handle stcelltypebf95type
+12:23:13.638 [main] INFO  - Goto crm URL 
+12:23:30.172 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+12:23:30.174 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:23:30.174 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:23:30.175 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:23:30.175 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:23:30.176 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:23:30.184 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:23:30.184 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:23:30.186 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:23:30.187 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:23:30.187 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:23:30.188 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:23:30.188 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:23:30.189 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+12:23:30.217 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+12:23:30.218 [main] TRACE - Resolving type for handle ctworkbook83c3type
+12:23:30.241 [main] TRACE - Resolving type for handle ctworkbookpr03a5type
+12:23:30.247 [main] TRACE - Resolving type for handle ctbookviewsb864type
+12:23:30.249 [main] TRACE - Resolving type for handle ctbookviewf677type
+12:23:30.252 [main] TRACE - Resolving type for handle ctsheets49fdtype
+12:23:30.254 [main] TRACE - Resolving type for handle propertiesee84doctype
+12:23:30.255 [main] TRACE - Resolving type for handle ctproperties3f10type
+12:23:30.258 [main] TRACE - Resolving type for handle properties288cdoctype
+12:23:30.259 [main] TRACE - Resolving type for handle ctproperties2c18type
+12:23:30.263 [main] TRACE - Resolving type for handle sstf81fdoctype
+12:23:30.264 [main] TRACE - Resolving type for handle ctsst44f3type
+12:23:30.267 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
+12:23:30.268 [main] TRACE - Resolving type for handle ctstylesheet4257type
+12:23:30.269 [main] TRACE - Resolving type for handle ctfont14d8type
+12:23:30.272 [main] TRACE - Resolving type for handle ctfontsizeb3b9type
+12:23:30.273 [main] TRACE - Resolving type for handle ctcolord2c2type
+12:23:30.274 [main] TRACE - Resolving type for handle ctfontname2dc3type
+12:23:30.276 [main] TRACE - Resolving type for handle stxstringf179type
+12:23:30.278 [main] TRACE - Resolving type for handle ctfontfamily685ctype
+12:23:30.279 [main] TRACE - Resolving type for handle stfontfamily9c6ctype
+12:23:30.281 [main] TRACE - Resolving type for handle ctfontschemebf5dtype
+12:23:30.282 [main] TRACE - Resolving type for handle stfontschemef36dtype
+12:23:30.284 [main] TRACE - Resolving type for handle ctfill550ctype
+12:23:30.284 [main] TRACE - Resolving type for handle ctpatternfill7452type
+12:23:30.287 [main] TRACE - Resolving type for handle stpatterntype7939type
+12:23:30.288 [main] TRACE - Resolving type for handle ctborderf935type
+12:23:30.289 [main] TRACE - Resolving type for handle ctborderpre497type
+12:23:30.291 [main] TRACE - Resolving type for handle ctxf97f7type
+12:23:30.293 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
+12:23:30.294 [main] TRACE - Resolving type for handle stfontid9d63type
+12:23:30.296 [main] TRACE - Resolving type for handle stfillida097type
+12:23:30.296 [main] TRACE - Resolving type for handle stborderid1a80type
+12:23:30.297 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
+12:23:30.300 [main] TRACE - Resolving type for handle ctsheet4dbetype
+12:23:30.303 [main] TRACE - Resolving type for handle ctworksheet530dtype
+12:23:30.305 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
+12:23:30.308 [main] TRACE - Resolving type for handle ctsheetviewsb918type
+12:23:30.309 [main] TRACE - Resolving type for handle ctsheetview0f43type
+12:23:30.313 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
+12:23:30.315 [main] TRACE - Resolving type for handle stref90a2type
+12:23:30.316 [main] TRACE - Resolving type for handle ctsheetdata8408type
+12:23:30.317 [main] TRACE - Resolving type for handle ctpagemargins5455type
+12:23:30.321 [main] TRACE - Resolving type for handle ctcols627ctype
+12:23:30.322 [main] TRACE - Resolving type for handle strelationshipid1e94type
+12:23:30.324 [main] TRACE - Resolving type for handle ctrowdd39type
+12:23:30.328 [main] TRACE - Resolving type for handle ctcell842btype
+12:23:30.332 [main] TRACE - Resolving type for handle stcellrefe4e0type
+12:23:30.334 [main] TRACE - Resolving type for handle ctrsta472type
+12:23:30.337 [main] TRACE - Resolving type for handle stcelltypebf95type
+12:28:12.401 [main] INFO  - Goto crm URL 
+12:30:32.777 [main] INFO  - Goto crm URL 
+12:32:58.607 [main] INFO  - Goto crm URL 
+12:34:44.979 [main] INFO  - Goto crm URL 
+15:11:32.690 [main] INFO  - Goto crm URL 
+16:00:40.252 [main] INFO  - Goto crm URL 
+16:08:31.665 [main] INFO  - Goto crm URL 
+16:58:19.394 [main] INFO  - Goto crm URL 
+18:44:12.932 [main] INFO  - Goto crm URL 
+18:50:45.242 [main] INFO  - Goto crm URL 
+18:51:59.879 [main] INFO  - Goto crm URL 
+19:23:18.184 [main] INFO  - Goto crm URL 
+19:24:56.968 [main] INFO  - Goto crm URL 
+19:31:41.200 [main] INFO  - Goto crm URL 
+10:05:54.288 [main] INFO  - Goto crm URL 
+10:06:25.015 [main] INFO  - Goto crm URL 
+10:25:43.880 [main] INFO  - Goto crm URL 
+12:37:21.621 [main] INFO  - Goto crm URL 
+12:38:49.568 [main] INFO  - Goto crm URL 
+12:42:16.703 [main] INFO  - Goto crm URL 
+13:00:12.180 [main] INFO  - Goto crm URL 
+11:50:15.134 [main] INFO  - Goto crm URL 
+12:20:45.676 [main] INFO  - Goto crm URL 
+10:49:37.751 [main] INFO  - Goto crm URL 
+10:50:35.097 [main] INFO  - Goto crm URL 
+10:53:00.979 [main] INFO  - Goto crm URL 
+10:55:11.784 [main] INFO  - Goto crm URL 
+10:56:29.386 [main] INFO  - Goto crm URL 
+12:38:37.812 [main] INFO  - Goto crm URL 
+12:42:00.549 [main] INFO  - Goto crm URL 
+12:48:39.392 [main] INFO  - Goto crm URL 
+12:51:59.807 [main] INFO  - Goto crm URL 
+12:54:10.719 [main] INFO  - Goto crm URL 
+12:57:45.570 [main] INFO  - Goto crm URL 
+13:04:04.306 [main] INFO  - Goto crm URL 
+13:05:15.070 [main] INFO  - Goto crm URL 
+13:08:25.897 [main] INFO  - Goto crm URL 
+13:13:53.097 [main] INFO  - Goto crm URL 
+13:14:56.052 [main] INFO  - Goto crm URL 
+13:17:06.391 [main] INFO  - Goto crm URL 
+13:25:14.082 [main] INFO  - Goto crm URL 
+13:35:15.837 [main] INFO  - Goto crm URL 
+13:38:43.027 [main] INFO  - Goto crm URL 
+13:44:53.088 [main] INFO  - Goto crm URL 
+13:46:05.342 [main] INFO  - Goto crm URL 
+14:10:14.229 [main] INFO  - Goto crm URL 
+14:12:32.148 [main] INFO  - Goto crm URL 
+14:48:53.255 [main] INFO  - Goto crm URL 
+14:50:12.762 [main] INFO  - Goto crm URL 
+15:11:57.473 [main] INFO  - Goto crm URL 
+15:12:58.264 [main] INFO  - Goto crm URL 
+15:14:16.203 [main] INFO  - Goto crm URL 
+15:22:39.522 [main] INFO  - Goto crm URL 
+15:25:33.236 [main] INFO  - Goto crm URL 
+15:30:14.927 [main] INFO  - Goto crm URL 
+15:31:12.642 [main] INFO  - Goto crm URL 
+15:34:27.765 [main] INFO  - Goto crm URL 
+15:36:13.943 [main] INFO  - Goto crm URL 
+15:37:47.312 [main] INFO  - Goto crm URL 
+15:41:05.535 [main] INFO  - Goto crm URL 
+15:47:09.729 [main] INFO  - Goto crm URL 
+15:48:09.279 [main] INFO  - Goto crm URL 
+15:52:29.933 [main] INFO  - Goto crm URL 
+15:54:10.082 [main] INFO  - Goto crm URL 
+16:01:01.055 [main] INFO  - Goto crm URL 
+16:02:24.989 [main] INFO  - Goto crm URL 
+16:06:27.069 [main] INFO  - Goto crm URL 
+16:25:51.364 [main] INFO  - Goto crm URL 
+16:26:55.503 [main] INFO  - Goto crm URL 
+16:28:13.802 [main] INFO  - Goto crm URL 
+16:32:21.458 [main] INFO  - Goto crm URL 
+16:34:57.298 [main] INFO  - Goto crm URL 
+16:38:43.624 [main] INFO  - Goto crm URL 
+16:40:02.791 [main] INFO  - Goto crm URL 
+16:56:33.190 [main] INFO  - Goto crm URL 
+17:06:56.530 [main] INFO  - Goto crm URL 
+17:09:49.521 [main] INFO  - Goto crm URL 
+17:33:17.641 [main] INFO  - Goto crm URL 
+17:43:54.000 [main] INFO  - Goto crm URL 
+17:50:13.470 [main] INFO  - Goto crm URL 
+17:54:29.339 [main] INFO  - Goto crm URL 
+17:57:40.203 [main] INFO  - Goto crm URL 
+17:59:02.419 [main] INFO  - Goto crm URL 
+18:00:44.374 [main] INFO  - Goto crm URL 
+18:02:19.894 [main] INFO  - Goto crm URL 
+18:02:54.427 [main] INFO  - Goto crm URL 
+18:25:09.642 [main] INFO  - Goto crm URL 
+18:31:37.521 [main] INFO  - Goto crm URL 
+18:32:36.959 [main] INFO  - Goto crm URL 
+18:34:55.429 [main] INFO  - Goto crm URL 
+18:40:10.410 [main] INFO  - Goto crm URL 
+18:45:42.101 [main] INFO  - Goto crm URL 
+18:46:42.593 [main] INFO  - Goto crm URL 
+18:48:40.181 [main] INFO  - Goto crm URL 
+18:49:56.148 [main] INFO  - Goto crm URL 
+18:54:26.721 [main] INFO  - Goto crm URL 
+19:08:19.241 [main] INFO  - Goto crm URL 
+19:14:05.291 [main] INFO  - Goto crm URL 
+19:15:09.530 [main] INFO  - Goto crm URL 
+20:41:17.561 [main] INFO  - Goto crm URL 
+20:42:20.524 [main] INFO  - Goto crm URL 
+20:43:12.583 [main] INFO  - Goto crm URL 
+21:19:57.516 [main] INFO  - Goto crm URL 
+21:20:46.485 [main] INFO  - Goto crm URL 
+10:49:08.775 [main] INFO  - Goto crm URL 
+11:11:11.978 [main] INFO  - Goto crm URL 
+11:18:01.967 [main] INFO  - Goto crm URL 
+11:24:03.387 [main] INFO  - Goto crm URL 
+11:24:59.939 [main] INFO  - Goto crm URL 
+11:53:02.022 [main] INFO  - Goto crm URL 
+11:53:45.905 [main] INFO  - Goto crm URL 
+12:12:09.128 [main] INFO  - Goto crm URL 
+12:15:46.951 [main] INFO  - Goto crm URL 
+12:17:11.250 [main] INFO  - Goto crm URL 
+12:19:58.644 [main] INFO  - Goto crm URL 
+12:22:10.712 [main] INFO  - Goto crm URL 
+12:40:16.832 [main] INFO  - Goto crm URL 
+12:46:22.320 [main] INFO  - Goto crm URL 
+12:49:16.754 [main] INFO  - Goto crm URL 
+12:51:18.805 [main] INFO  - Goto crm URL 
+13:27:15.302 [main] INFO  - Goto crm URL 
+13:28:17.220 [main] INFO  - Goto crm URL 
+13:31:58.032 [main] INFO  - Goto crm URL 
+14:14:26.162 [main] INFO  - Goto crm URL 
+15:55:59.372 [main] INFO  - Goto crm URL 
+15:57:30.738 [main] INFO  - Goto crm URL 
+15:58:35.600 [main] INFO  - Goto crm URL 
+15:59:35.578 [main] INFO  - Goto crm URL 
+16:07:49.844 [main] INFO  - Goto crm URL 
+16:26:56.616 [main] INFO  - Goto crm URL 
+16:32:04.624 [main] INFO  - Goto crm URL 
+17:18:06.364 [main] INFO  - Goto crm URL 
+17:20:06.758 [main] INFO  - Goto crm URL 
+17:24:43.626 [main] INFO  - Goto crm URL 
+17:28:41.937 [main] INFO  - Goto crm URL 
+17:29:34.087 [main] INFO  - Goto crm URL 
+17:58:38.381 [main] INFO  - Goto crm URL 
+18:43:24.726 [main] INFO  - Goto crm URL 
+18:44:39.890 [main] INFO  - Goto crm URL 
+16:06:18.971 [main] INFO  - Goto crm URL 
+16:08:20.527 [main] INFO  - Goto crm URL 
+16:19:46.348 [main] INFO  - Goto crm URL 
+16:27:17.324 [main] INFO  - Goto crm URL 
+16:33:00.113 [main] INFO  - Goto crm URL 
+16:36:50.290 [main] INFO  - Goto crm URL 
+16:38:59.149 [main] INFO  - Goto crm URL 
+16:44:32.440 [main] INFO  - Goto crm URL 
+16:47:17.721 [main] INFO  - Goto crm URL 
+21:21:41.578 [main] INFO  - Goto crm URL 
+10:41:34.961 [main] INFO  - Goto crm URL 
+10:43:14.951 [main] INFO  - Goto crm URL 
+19:39:32.275 [main] INFO  - Goto crm URL 
+19:41:10.774 [main] INFO  - Goto crm URL 
+10:49:18.639 [main] INFO  - Goto crm URL 
+10:51:19.428 [main] INFO  - Goto crm URL 
+11:45:15.530 [main] INFO  - Goto crm URL 
+11:46:28.989 [main] INFO  - Goto crm URL 
+16:46:57.562 [main] INFO  - Goto crm URL 
+16:48:27.920 [main] INFO  - Goto crm URL 
+18:28:26.293 [main] INFO  - Goto crm URL 
+18:30:03.463 [main] INFO  - Goto crm URL 
+14:51:58.602 [main] INFO  - Goto crm URL 
+14:53:19.683 [main] INFO  - Goto crm URL 
+15:48:32.660 [main] INFO  - Goto crm URL 
+16:04:33.007 [main] INFO  - Goto crm URL 
+16:23:59.522 [main] INFO  - Goto crm URL 
+12:16:07.604 [main] INFO  - Goto crm URL 
+12:27:06.754 [main] INFO  - Goto crm URL 
+12:28:28.351 [main] INFO  - Goto crm URL 
+13:00:49.908 [main] INFO  - Goto crm URL 
+13:11:21.524 [main] INFO  - Goto crm URL 
+13:18:37.161 [main] INFO  - Goto crm URL 
+13:19:25.574 [main] INFO  - Goto crm URL 
+14:15:47.543 [main] INFO  - Goto crm URL 
+16:08:59.503 [main] INFO  - Goto crm URL 
+17:53:13.240 [main] INFO  - Goto crm URL 
+17:54:03.609 [main] INFO  - Goto crm URL 
+11:23:24.138 [main] INFO  - Goto crm URL 
+11:24:11.863 [main] INFO  - Goto crm URL 
+11:25:15.141 [main] INFO  - Goto crm URL 
+11:28:50.790 [main] INFO  - Goto crm URL 
+17:42:49.581 [main] INFO  - Goto crm URL 
+20:26:10.650 [main] INFO  - Goto crm URL 
+20:29:30.988 [main] INFO  - Goto crm URL 
+20:31:03.852 [main] INFO  - Goto crm URL 
+20:42:44.974 [main] INFO  - Goto crm URL 
+21:51:31.132 [main] INFO  - Goto crm URL 
+21:52:51.764 [main] INFO  - Goto crm URL 
+21:56:18.835 [main] INFO  - Goto crm URL 
+21:58:04.900 [main] INFO  - Goto crm URL 
+22:00:27.398 [main] INFO  - Goto crm URL 
+22:07:24.784 [main] INFO  - Goto crm URL 
+22:08:31.188 [main] INFO  - Goto crm URL 
+22:09:34.176 [main] INFO  - Goto crm URL 
+22:23:13.865 [main] INFO  - Goto crm URL 
+22:25:35.927 [main] INFO  - Goto crm URL 
+22:31:50.528 [main] INFO  - Goto crm URL 
+22:37:41.972 [main] INFO  - Goto crm URL 
+22:45:38.826 [main] INFO  - Goto crm URL 
+10:39:03.448 [main] INFO  - Goto crm URL 
+11:26:32.156 [main] INFO  - Goto crm URL 
+11:27:34.604 [main] INFO  - Goto crm URL 
+11:31:17.435 [main] INFO  - Goto crm URL 
+17:07:30.389 [main] INFO  - Goto crm URL 
+17:11:23.600 [main] INFO  - Goto crm URL 
+18:45:33.207 [main] INFO  - Goto crm URL 
+18:46:18.823 [main] INFO  - Goto crm URL 
+19:24:42.190 [main] INFO  - Goto crm URL 
+10:54:50.512 [main] INFO  - Goto crm URL 
+10:59:03.389 [main] INFO  - Goto crm URL 
+11:01:48.490 [main] INFO  - Goto crm URL 
+11:05:13.606 [main] INFO  - Goto crm URL 
+11:06:58.499 [main] INFO  - Goto crm URL 
+11:08:05.048 [main] INFO  - Goto crm URL 
+17:17:09.292 [main] INFO  - Goto crm URL 
+17:19:23.720 [main] INFO  - Goto crm URL 
+17:24:22.093 [main] INFO  - Goto crm URL 
+12:39:55.596 [main] INFO  - Goto crm URL 
+12:48:53.505 [main] INFO  - Goto crm URL 
+12:50:28.934 [main] INFO  - Goto crm URL 
+12:53:37.279 [main] INFO  - Goto crm URL 
+14:17:03.890 [main] INFO  - Goto crm URL 
+14:19:42.006 [main] INFO  - Goto crm URL 
+14:23:16.978 [main] INFO  - Goto crm URL 
+14:25:16.460 [main] INFO  - Goto crm URL 
+15:12:39.508 [main] INFO  - Goto crm URL 
+19:09:17.077 [main] INFO  - Goto crm URL 
+19:10:32.137 [main] INFO  - Goto crm URL 
+21:48:26.203 [main] INFO  - Goto crm URL 
+21:50:20.010 [main] INFO  - Goto crm URL 
+22:16:03.591 [main] INFO  - Goto crm URL 
+22:17:22.175 [main] INFO  - Goto crm URL 
+09:19:03.242 [main] INFO  - Goto crm URL 
+09:21:21.211 [main] INFO  - Goto crm URL 
+14:55:53.675 [main] INFO  - Goto crm URL 
+15:00:54.937 [main] INFO  - Goto crm URL 
+18:50:24.451 [main] INFO  - Goto crm URL 
+18:53:02.881 [main] INFO  - Goto crm URL 
+18:56:51.351 [main] INFO  - Goto crm URL 
+12:41:10.839 [main] INFO  - Goto crm URL 
+12:42:56.598 [main] INFO  - Goto crm URL 
+12:48:06.503 [main] INFO  - Goto crm URL 
+13:52:19.240 [main] INFO  - Goto crm URL 
+18:01:38.884 [main] INFO  - Goto crm URL 
+16:28:15.441 [main] INFO  - Goto crm URL 
+16:35:27.570 [main] INFO  - Goto crm URL 
+11:18:25.541 [main] INFO  - Goto crm URL 
+11:21:09.923 [main] INFO  - Goto crm URL 
+11:22:25.701 [main] INFO  - Goto crm URL 
+15:48:09.437 [main] INFO  - Goto crm URL 
+15:50:07.902 [main] INFO  - Goto crm URL 
+16:28:46.850 [main] INFO  - Goto crm URL 
+16:53:55.481 [main] INFO  - Goto crm URL 
+19:37:30.682 [main] INFO  - Goto crm URL 
+19:38:19.837 [main] INFO  - Goto crm URL 
+22:32:14.264 [main] INFO  - Goto crm URL 
+22:34:25.142 [main] INFO  - Goto crm URL 
+22:54:03.918 [main] INFO  - Goto crm URL 
+10:49:52.547 [main] INFO  - Goto crm URL 
+10:55:12.191 [main] INFO  - Goto crm URL 
+11:00:27.136 [main] INFO  - Goto crm URL 
+11:45:37.171 [main] INFO  - Goto crm URL 
+11:54:33.421 [main] INFO  - Goto crm URL 
+11:59:26.550 [main] INFO  - Goto crm URL 
+12:10:12.765 [main] INFO  - Goto crm URL 
+12:16:07.543 [main] INFO  - Goto crm URL 
+12:28:42.390 [main] INFO  - Goto crm URL 
+12:32:32.852 [main] INFO  - Goto crm URL 
+12:33:13.198 [main] INFO  - Goto crm URL 
+12:55:52.711 [main] INFO  - Goto crm URL 
+12:58:56.187 [main] INFO  - Goto crm URL 
+13:25:27.622 [main] INFO  - Goto crm URL 
+13:46:17.701 [main] INFO  - Goto crm URL 
+17:20:15.837 [main] INFO  - Goto crm URL 
+17:22:55.286 [main] INFO  - Goto crm URL 
+07:34:05.912 [main] INFO  - Goto crm URL 
+08:13:18.257 [main] INFO  - Goto crm URL 
+10:52:09.781 [main] INFO  - Goto crm URL 
+11:21:14.337 [main] INFO  - Goto crm URL 
+12:16:28.782 [main] INFO  - Goto crm URL 
+16:29:59.326 [main] INFO  - Goto crm URL 
+17:59:05.797 [main] INFO  - Goto crm URL 
+12:35:12.450 [main] INFO  - Goto crm URL 
+12:50:17.910 [main] INFO  - Goto crm URL 
+12:52:14.984 [main] INFO  - Goto crm URL 
+12:56:00.541 [main] INFO  - Goto crm URL 
+19:22:03.335 [main] INFO  - Goto crm URL 
+12:52:30.768 [main] INFO  - Goto crm URL 
+13:10:54.304 [main] INFO  - Goto crm URL 
+13:12:00.476 [main] INFO  - Goto crm URL 
+16:26:14.928 [main] INFO  - Goto crm URL 
+16:28:50.951 [main] INFO  - Goto crm URL 
+16:57:00.417 [main] INFO  - Goto crm URL 
+17:04:23.770 [main] INFO  - Goto crm URL 
+16:25:09.562 [main] INFO  - Goto crm URL 
+16:26:01.309 [main] INFO  - Goto crm URL 
+16:35:33.351 [main] INFO  - Goto crm URL 
+17:40:13.560 [main] INFO  - Goto crm URL 
+17:41:07.261 [main] INFO  - Goto crm URL 
+11:34:30.419 [main] INFO  - Goto crm URL 
+11:34:30.421 [main] INFO  - Goto crm URL 
+11:37:58.751 [main] INFO  - Goto crm URL 
+11:56:00.653 [main] INFO  - Goto crm URL 
+12:09:27.715 [main] INFO  - Goto crm URL 
+12:54:51.720 [main] INFO  - Goto crm URL 
+12:55:32.255 [main] INFO  - Goto crm URL 
+16:43:13.519 [main] INFO  - Goto crm URL 
+16:55:39.508 [main] INFO  - Goto crm URL 
+17:07:58.293 [main] INFO  - Goto crm URL 
+17:11:05.905 [main] INFO  - Goto crm URL 
+17:20:21.652 [main] INFO  - Goto crm URL 
+11:43:04.347 [main] INFO  - Goto crm URL 
+15:43:12.003 [main] INFO  - Goto crm URL 
+15:44:27.712 [main] INFO  - Goto crm URL 
+17:16:05.828 [main] INFO  - Goto crm URL 
+17:21:31.743 [main] INFO  - Goto crm URL 
+12:54:10.155 [main] INFO  - Goto crm URL 
+13:15:16.487 [main] INFO  - Goto crm URL 
+13:27:36.165 [main] INFO  - Goto crm URL 
+13:32:41.785 [main] INFO  - Goto crm URL 
+14:13:45.465 [main] INFO  - Goto crm URL 
+14:16:32.659 [main] INFO  - Goto crm URL 
+14:23:58.317 [main] INFO  - Goto crm URL 
+16:16:00.456 [main] INFO  - Goto crm URL 
+16:21:01.818 [main] INFO  - Goto crm URL 
+16:28:43.110 [main] INFO  - Goto crm URL 
+16:32:00.003 [main] INFO  - Goto crm URL 
+16:38:10.178 [main] INFO  - Goto crm URL 
+16:41:36.050 [main] INFO  - Goto crm URL 
+16:49:38.786 [main] INFO  - Goto crm URL 
+17:03:21.955 [main] INFO  - Goto crm URL 
+17:45:50.271 [main] INFO  - Goto crm URL 
+17:48:15.545 [main] INFO  - Goto crm URL 
+13:13:14.000 [main] INFO  - Goto crm URL 
+13:14:00.701 [main] INFO  - Goto crm URL 
+13:32:35.844 [main] INFO  - Goto crm URL 
+13:42:39.070 [main] INFO  - Goto crm URL 
+13:44:00.991 [main] INFO  - Goto crm URL 
+16:51:37.797 [main] INFO  - Goto crm URL 
+17:00:55.315 [main] INFO  - Goto crm URL 
+17:01:35.512 [main] INFO  - Goto crm URL 
+17:02:38.577 [main] INFO  - Goto crm URL 
+17:03:34.619 [main] INFO  - Goto crm URL 
+17:12:28.966 [main] INFO  - Goto crm URL 
+17:19:04.705 [main] INFO  - Goto crm URL 
+17:28:14.776 [main] INFO  - Goto crm URL 
+17:30:27.094 [main] INFO  - Goto crm URL 
+17:35:14.376 [main] INFO  - Goto crm URL 
+17:39:47.649 [main] INFO  - Goto crm URL 
+17:45:02.756 [main] INFO  - Goto crm URL 
+17:54:09.547 [main] INFO  - Goto crm URL 
+18:00:10.249 [main] INFO  - Goto crm URL 
+18:23:00.218 [main] INFO  - Goto crm URL 
+18:25:22.805 [main] INFO  - Goto crm URL 
+18:28:07.353 [main] INFO  - Goto crm URL 
+18:29:52.686 [main] INFO  - Goto crm URL 
+18:40:03.260 [main] INFO  - Goto crm URL 
+18:41:13.569 [main] INFO  - Goto crm URL 

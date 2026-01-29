@@ -3,8 +3,9 @@ Feature: customer Login
   Scenario: Successful Login
     Given the user is on the Ram Fincorp login page
     When user enters Mobile Number as "7488660739"
+    #And User enter OTP as "987654"
   # And the user clicks on the Login button
-   And User Enter OTP in EnterOTP field 
+   #And User Enter OTP in EnterOTP field 
    Then User clicks on Get cash
    And User clicks on Next button on one page
    

@@ -13,26 +13,10 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
 
  <build>
-        <pluginManagement>
-        <plugins>
-            <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.14.0</version>
-			</plugin>
-
-          <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.4</version>
-          </plugin>
-
-
-        </plugins>
-        </pluginManagement>
-    </build>
+            
     
         <pluginManagement>
         <plugins>
@@ -46,18 +30,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.4</version>
-                <configuration>
-                <suiteXmlFiles>
-                <suiteXmlFile>master.xml</suiteXmlFile>
-                </suiteXmlFiles>
-                </configuration>
+                
           </plugin>
 
 
         </plugins>
         </pluginManagement>
     
-
+</build>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -66,8 +46,9 @@
 	    <artifactId>selenium-java</artifactId>
 	    <version>4.35.0</version>
 	</dependency>
+	
+	
 
-   
        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 		    <groupId>io.cucumber</groupId>
@@ -131,12 +112,13 @@
 
 	
 	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-cucumber4-adapter -->
-	<dependency>
-	    <groupId>tech.grasshopper</groupId>
-	    <artifactId>extentreports-cucumber7-adapter</artifactId>
-	    <version>1.14.0</version>
-	</dependency>
-
+	<!-- Source: https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+<dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.14.0</version>
+    <scope>compile</scope>
+</dependency>
 		<dependency>
     <groupId>com.mysql</groupId>
     <artifactId>mysql-connector-j</artifactId>

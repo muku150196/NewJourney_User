@@ -5,6 +5,10 @@ import java.io.IOException;
 
 
 
+
+
+
+
 import java.sql.SQLException;
 import java.time.Duration;
 import java.util.HashMap;
@@ -24,6 +28,9 @@ import io.cucumber.java.en.When;
 //import pageObjects.MyAccountPage;
 //import pageObjects.HomePage;
 import PageObjects.LoginPage;
+import PageObjects.onb_journey_PS;
+//import PageObjects.ONBPage;
+//import PageObjects.onb_journey_PS;
 //import pageObjects.MyAccountPage;
 import utilities.DataReader;
  
@@ -31,7 +38,9 @@ public class LoginSteps {
 	
      WebDriver driver;
      //HomePage hp;
-     LoginPage lp;
+    //LoginPage lp;
+     onb_journey_PS lp;
+     //ONBClass onb;
      //MyAccountPage macc;
     // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
@@ -40,15 +49,37 @@ public class LoginSteps {
      public void the_user_is_on_the_ram_fincorp_login_page() {
          // Write code here that turns the phrase above into concrete actions
     	 BaseClass.getLogger().info("Goto crm URL ");
-     	lp=new LoginPage(BaseClass.getDriver());
-     	
+     	//lp=new LoginPage(BaseClass.getDriver());
+    	lp=new onb_journey_PS(BaseClass.getDriver());
      }
+     @Given("the User Delets its lead on DB")
+     public void the_user_delets_its_lead_on_db() {
+         // Write code here that turns the phrase above into concrete actions
+ 
+    	 
+    	 
+     }
+
 
      @When("user enters Mobile Number as {string}")
      public void user_enters_mobile_number_as(String mobile) throws InterruptedException {
          // Write code here that turns the phrase above into concrete actions
      lp.enterMobile(mobile);
      }
+
+     
+
+
+@Then("User update lenderID in Lead Table")
+public void user_update_lender_id_in_lead_table() throws IOException, SQLException, InterruptedException {
+    // Write code here that turns the phrase above into concrete actions
+	try {
+		lp.GetOTPandEnter();
+	} catch (IOException | SQLException | InterruptedException e) {
+		// TODO Auto-generated catch block
+	
+	}
+}
 
 
      @When("User Enter OTP in EnterOTP field")
@@ -128,6 +159,38 @@ public class LoginSteps {
 			e.printStackTrace();
 		}
 	}
+	
+	
+	@Then("User enters bankName for Finbox as {string}")
+	public void user_enters_bank_name_for_finbox_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	   try {
+		lp.bankSearchFinbox(string);
+	   } catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	   }
+	}
+	@Then("User approves loan from CRM from Rejected Process")
+	public void user_approves_loan_from_crm_from_rejected_process() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+	
+	@Then("User Update Bureau Table for EMI Creation")
+	public void user_update_bureau_table_for_emi_creation() {
+	    // Write code here that turns the phrase above into concrete actions
+	    try {
+			lp.Emicreation();
+		} catch (IOException | SQLException | InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 
 	@When("User click Continue on offerpage")
 	public void user_click_continue_on_offerpage() {
@@ -149,6 +212,7 @@ public class LoginSteps {
 			e.printStackTrace();
 		}
 	}
+	
 	@When("User clicks Personal Emergency on Loan Purpose")
 	public void user_clicks_personal_emergency_on_loan_purpose() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -168,6 +232,16 @@ public class LoginSteps {
 		
 			e.printStackTrace();
 		}
+	}
+
+	
+	@Then("User clicks Continue")
+	public void user_clicks_continue() throws InterruptedException {
+	    // Write code here that turns the phrase above into concrete actions
+	  
+		lp.continue_btn();
+
+		
 	}
 
 
@@ -193,15 +267,22 @@ public class LoginSteps {
 		}
 	}
 
-	@When("User enter AccName as {string},AccNo as {string},cnfAc as {string},ifsc as {string}")
-	public void user_enter_acc_name_as_acc_no_as_cnf_ac_as_ifsc_as(String accHolderName, String accNo, String ReAccNo, String IFSC) {
-try {
-	lp.enterBankDetails(accHolderName,accNo, ReAccNo, IFSC);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
+	
+	
+	@When("User enter AccNo as {string},cnfAc as {string},ifsc as {string}")
+	public void user_enter_acc_no_as_cnf_ac_as_ifsc_as(String accNo, String ReAccNo, String IFSC) {
+
+		try {
+			lp.enterBankDetails(accNo, ReAccNo, IFSC);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 	}
+		
+		
 @When("User clicks continue on emandate")
 public void user_clicks_continue_on_emandate() {
     // Write code here that turns the phrase above into concrete actions
@@ -245,6 +326,7 @@ public void user_is_again_on_emandate_page_and_click_continue() {
     // Write code here that turns the phrase above into concrete actions
     try {
 		lp.ReemandatePage();
+		
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 	
@@ -268,7 +350,12 @@ public void user_manually_select_checkbox_and_click_continue() {
 
 @Given("User is on KFS Page , manually selects checkbox and click continue")
 public void user_is_on_kfs_page_manually_selects_checkbox_and_click_continue() {
-    lp.KFSAcceptance();
+    try {
+		lp.KFSAcceptance();
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
     
     }
 
@@ -276,6 +363,17 @@ public void user_is_on_kfs_page_manually_selects_checkbox_and_click_continue() {
 public void user_is_on_approved_page_and_manually_disburse_from_crm() {
     // Write code here that turns the phrase above into concrete actions
     lp.DisbursalfromCRM();
+}
+
+@Then("User chages Pan for LMS Testing")
+public void user_chages_pan_for_lms_testing() {
+    // Write code here that turns the phrase above into concrete actions
+   try {
+	lp.ChangePAN();
+} catch (IOException | SQLException | InterruptedException e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+}
 }
 
 }
