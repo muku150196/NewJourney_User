@@ -87,12 +87,22 @@ public void user_update_lender_id_in_lead_table() throws IOException, SQLExcepti
          // Write code here that turns the phrase above into concrete actions
     	 lp.GetOTPandEnter();
      }
+     @Then("user Enters  PAN as {string} and PINcode as {string} in Enter your Pan Page")
+     public void user_enters_pan_as_and_pi_ncode_as_in_enter_your_pan_page(String PAN, String PIN) {
+         // Write code here that turns the phrase above into concrete actions
+    	 try {
+			lp.enterPANandPIN(PAN, PIN);
+		 } catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		 }
+     }
 
- 	@Then("user Enters  PAN AS {string} and PINcode as {string} in Enter your Pan Page")
- 	public void user_enters_pan_as_and_pi_ncode_as_in_enter_your_pan_page(String PAN, String PIN) throws InterruptedException {
+ 	//@Then("user Enters  PAN AS {string} and PINcode as {string} in Enter your Pan Page")
+ 	//public void user_enters_pan_as_and_pi_ncode_as_in_enter_your_pan_page(String PAN, String PIN) throws InterruptedException {
  	    // Write code here that turns the phrase above into concrete actions
- 		lp.enterPANandPIN(PAN, PIN);
- 	}
+ 		//lp.enterPANandPIN(PAN, PIN);
+ 	//}
  	@Then("User clicks on Get cash")
  	public void user_clicks_on_get_cash() throws InterruptedException {
  	    // Write code here that turns the phrase above into concrete actions
@@ -317,10 +327,10 @@ public void user_clicks_on_Success_in_Rajorpay_window() {
 	}
 }
 //@When("user is on Kindly select bank account for loan disbursal page and click Continue")
-public void user_is_on_kindly_select_bank_account_for_loan_disbursal_page_and_click_continue() {
+//public void user_is_on_kindly_select_bank_account_for_loan_disbursal_page_and_click_continue() {
     // Write code here that turns the phrase above into concrete actions
     
-}
+//}
 @When("User is again on emandate page and click Continue")
 public void user_is_again_on_emandate_page_and_click_continue() {
     // Write code here that turns the phrase above into concrete actions

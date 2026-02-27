@@ -54,8 +54,11 @@ public class onb_journey_PS extends BasePage {
 	
 	@FindBy(xpath = "//h1[text()='Pan Verification']")
 	WebElement EnterPanTitle;
-	@FindBy(xpath = "//input[@placeholder='Enter Your PAN']")
+	//@FindBy(xpath = "//input[@placeholder='Enter Your PAN']")
+	//WebElement PANfield;
+	@FindBy(xpath = "//input[@id='panNumber']")
 	WebElement PANfield;
+
 	@FindBy(xpath = "//input[@placeholder='Enter PIN Code']")
 	WebElement PINfield;
 	@FindBy(xpath = "//span[text()='Select Loan Purpose']")
@@ -198,7 +201,7 @@ public void DeletUserdata() throws IOException, SQLException, InterruptedExcepti
 		   
 		GetOtp.click();
 		
-		  Thread.sleep(9000);
+		  Thread.sleep(10000);
 		 // OTPfieldonb.sendKeys("987654");
 		  
 		  Verifybtn.click();
@@ -218,17 +221,16 @@ public void click_next_one_page() throws InterruptedException {
 	public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
 		//EnterUserName.clear();
 		
-			Thread.sleep(2000);
-	
-			
-	        PANfield.sendKeys(PAN);
-			PINfield.sendKeys(PIN);
+			Thread.sleep(5000);
+            PANfield.sendKeys(PAN);
+	        Thread.sleep(2000);
+		    PINfield.sendKeys(PIN);
 			Thread.sleep(2000);
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-			
-			Thread.sleep(2000);
-			
+//			
+//			Thread.sleep(2000);
+//			
 			// TODO Auto-generated catch block
 			
 		}
@@ -246,7 +248,7 @@ public void click_next_one_page() throws InterruptedException {
 	public void modeofpayment() throws InterruptedException  {
 		//EnterUserName.clear();
 	
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			BankTransfer.click();
 
 			Thread.sleep(2000);
@@ -260,7 +262,7 @@ public void click_next_one_page() throws InterruptedException {
 	public void enterCompanyandIncome(String MI) throws InterruptedException  {
 		//EnterUserName.clear();
 	
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 
 			MonthlyIncome.sendKeys(MI);
 			
@@ -268,7 +270,7 @@ public void click_next_one_page() throws InterruptedException {
 	public void enterSalaryDate() throws InterruptedException  {
 		//EnterUserName.clear();
 		
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 			dateofSalary.click();
 
 				  
@@ -279,7 +281,7 @@ public void click_next_one_page() throws InterruptedException {
 
 
 
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Continue.click();
 		
 		
@@ -362,19 +364,28 @@ Thread.sleep(200000);
 	public void enterEmailandNext(String email) throws InterruptedException  {
 		//EnterUserName.clear();
 		
-			Thread.sleep(7000);
+			Thread.sleep(4000);
 			
 			EnterEmail.sendKeys(email);
 			Continue.click();
+			Thread.sleep(30000);
+			Verify_OTP.click();
+			
+		
 		
 	}
 	public void enterAadharandNext(String aadhar) throws InterruptedException  {
 		//EnterUserName.clear();
 		
-			Thread.sleep(7000);
+			Thread.sleep(5000);
+			Continue.click();
 
+			Thread.sleep(2000);
 			EnterAadhar.sendKeys(aadhar);
+
+			Thread.sleep(2000);
 			Send_Otp.click();
+			
 		
 	}
 	public void enterOtpandNext() throws InterruptedException {
@@ -439,7 +450,7 @@ Thread.sleep(200000);
 	
 	public void continue_btn() {
 		try {
-			Thread.sleep(6000);
+			Thread.sleep(12000);
 			Continuebtn.click();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
