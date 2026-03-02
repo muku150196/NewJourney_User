@@ -491,7 +491,7 @@ Thread.sleep(200000);
 
 	public void ReemandatePage() throws InterruptedException  {
 		//EnterUserName.clear();
-		Thread.sleep(10000);
+		Thread.sleep(9000);
 		driver.switchTo().frame(emandateiframe);
 		reemandatebtn.click();
 			}
