@@ -422,14 +422,7 @@ Thread.sleep(200000);
 		    }
 		}	
 
-//	public void Emandate_Continue() throws InterruptedException {
-//		Thread.sleep(12000);
-//	
-//		
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-//		wait.until(ExpectedConditions.elementToBeClickable(EmandateContinue)).click();
-//
-//	}
+
 	public void EmandateContact() throws InterruptedException {
 		Thread.sleep(8000);
 		driver.switchTo().frame(frameEmandate);
