@@ -56,7 +56,10 @@ public class onb_journey_PS extends BasePage {
 	WebElement EnterPanTitle;
 	//@FindBy(xpath = "//input[@placeholder='Enter Your PAN']")
 	//WebElement PANfield;
-	@FindBy(xpath = "//input[@id='panNumber']")
+	//@FindBy(xpath = "//input[@id='panNumber']")
+	//WebElement PANfield;
+
+	@FindBy(xpath = "(//input[@value])[1]")
 	WebElement PANfield;
 
 	@FindBy(xpath = "//input[@placeholder='Enter PIN Code']")
@@ -218,23 +221,7 @@ public void click_next_one_page() throws InterruptedException {
 	Thread.sleep(2000);
 	Next.click();
 }
-	public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
-		//EnterUserName.clear();
-		
-			Thread.sleep(5000);
-            PANfield.sendKeys(PAN);
-	        Thread.sleep(2000);
-		    PINfield.sendKeys(PIN);
-			Thread.sleep(2000);
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-//			
-//			Thread.sleep(2000);
-//			
-			// TODO Auto-generated catch block
 			
-		}
-		
 	
 	public void PANdetailverify() throws InterruptedException  {
 		//EnterUserName.clear();
@@ -259,6 +246,19 @@ public void click_next_one_page() throws InterruptedException {
 			
 		
 	}
+public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
+		
+		Thread.sleep(7000);
+            PANfield.sendKeys(PAN);
+	        Thread.sleep(2000);
+		    PINfield.sendKeys(PIN);
+			Thread.sleep(2000);
+
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+	
+		}
+
 	public void enterCompanyandIncome(String MI) throws InterruptedException  {
 		//EnterUserName.clear();
 	
