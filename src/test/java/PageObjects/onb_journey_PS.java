@@ -1,5 +1,7 @@
 package PageObjects;
 
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
 import java.io.FileOutputStream;
 
 
@@ -21,9 +23,11 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
@@ -59,7 +63,7 @@ public class onb_journey_PS extends BasePage {
 	//@FindBy(xpath = "//input[@id='panNumber']")
 	//WebElement PANfield;
 
-	@FindBy(xpath = "(//input[@value])[1]")
+	@FindBy(xpath = "/html/body/div[1]/div/div/form/div[1]/div[1]/input")
 	WebElement PANfield;
 
 	@FindBy(xpath = "//input[@placeholder='Enter PIN Code']")
@@ -248,9 +252,32 @@ public void click_next_one_page() throws InterruptedException {
 	}
 public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
 		
-		Thread.sleep(7000);
-            PANfield.sendKeys(PAN);
-	        Thread.sleep(2000);
+		Thread.sleep(10000);
+//		JavascriptExecutor js_ = (JavascriptExecutor) driver;
+//		js_.executeScript("arguments[0].value='EESPK0277M';", PANfield);
+//		Actions actions = new Actions(driver);
+//
+//		actions.moveToElement(PANfield)
+//		       .click()
+//		       .pause(Duration.ofMillis(1000))
+//		       .sendKeys("EESPK0277M")
+//		       .pause(Duration.ofMillis(1000))
+//		       .sendKeys(Keys.TAB)
+//		       .build()
+//		       .perform(); 
+//		
+//		PANfield.click();
+//            Thread.sleep(2000);
+//            PANfield.sendKeys(PAN);
+//	        Thread.sleep(2000);
+		
+		StringSelection selection = new StringSelection(PAN);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
+
+
+		PANfield.click();
+		PANfield.sendKeys(Keys.CONTROL + "v");
+		PANfield.sendKeys(Keys.TAB);
 		    PINfield.sendKeys(PIN);
 			Thread.sleep(2000);
 
@@ -258,6 +285,20 @@ public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
 			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
 	
 		}
+public void enterhardcodedPan_PIN(String PIN) throws InterruptedException  {
+	
+	Thread.sleep(7000);
+        PANfield.sendKeys("EESPK0277M");
+        Thread.sleep(2000);
+	    PINfield.sendKeys(PIN);
+		Thread.sleep(2000);
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+
+	}
+
+
 
 	public void enterCompanyandIncome(String MI) throws InterruptedException  {
 		//EnterUserName.clear();

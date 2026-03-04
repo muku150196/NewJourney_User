@@ -98,11 +98,7 @@ public void user_update_lender_id_in_lead_table() throws IOException, SQLExcepti
 		 }
      }
 
- 	//@Then("user Enters  PAN AS {string} and PINcode as {string} in Enter your Pan Page")
- 	//public void user_enters_pan_as_and_pi_ncode_as_in_enter_your_pan_page(String PAN, String PIN) throws InterruptedException {
- 	    // Write code here that turns the phrase above into concrete actions
- 		//lp.enterPANandPIN(PAN, PIN);
- 	//}
+
  	@Then("User clicks on Get cash")
  	public void user_clicks_on_get_cash() throws InterruptedException {
  	    // Write code here that turns the phrase above into concrete actions

@@ -4,6 +4,7 @@ Feature: customer Login
     Given the user is on the Ram Fincorp login page
     When user enters Mobile Number as "7488660739"
     Then user Enters  PAN as "EESPK0277M" and PINcode as "847203" in Enter your Pan Page
+    #Then user Enters  PAN  and PINcode as "847203" in Enter your Pan Page
     When User clicks Personal Emergency on Loan Purpose
     Then user clicks Yes on PAN,NAME AND DOB match page
     And User enters MonthlyIncome as "120000" and click Next
