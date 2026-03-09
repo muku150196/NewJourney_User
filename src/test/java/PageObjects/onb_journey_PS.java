@@ -89,6 +89,10 @@ public class onb_journey_PS extends BasePage {
 	WebElement Continue;
 	By EmandateContinue= By.xpath("//button[text()='Continue ']");
 	
+
+	@FindBy(xpath = "//span[@class='rs-ripple-pond']")
+	WebElement Continue_Adhar;
+	
 	@FindBy(xpath = "//div[text()='Salaried']")
 	WebElement Salaried;
 	@FindBy(xpath = "//button[text()='Self Employed']")
@@ -185,6 +189,11 @@ WebElement verify_finbox_phone_No;
  
  @FindBy(xpath="//button[text()='Verify OTP']")
  WebElement Verify_OTP;
+ 
+ @FindBy(xpath="//div[@class='text-2xl font-medium text-[#302f32] mb-1']")
+ WebElement title_bREDecision;
+ 
+ 
 public void DeletUserdata() throws IOException, SQLException, InterruptedException
 {
 		Thread.sleep(1000);
@@ -253,23 +262,7 @@ public void click_next_one_page() throws InterruptedException {
 public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
 		
 		Thread.sleep(10000);
-//		JavascriptExecutor js_ = (JavascriptExecutor) driver;
-//		js_.executeScript("arguments[0].value='EESPK0277M';", PANfield);
-//		Actions actions = new Actions(driver);
-//
-//		actions.moveToElement(PANfield)
-//		       .click()
-//		       .pause(Duration.ofMillis(1000))
-//		       .sendKeys("EESPK0277M")
-//		       .pause(Duration.ofMillis(1000))
-//		       .sendKeys(Keys.TAB)
-//		       .build()
-//		       .perform(); 
-//		
-//		PANfield.click();
-//            Thread.sleep(2000);
-//            PANfield.sendKeys(PAN);
-//	        Thread.sleep(2000);
+
 		
 		StringSelection selection = new StringSelection(PAN);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
@@ -285,18 +278,14 @@ public void enterPANandPIN(String PAN,String PIN) throws InterruptedException  {
 			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
 	
 		}
-public void enterhardcodedPan_PIN(String PIN) throws InterruptedException  {
-	
-	Thread.sleep(7000);
-        PANfield.sendKeys("EESPK0277M");
-        Thread.sleep(2000);
-	    PINfield.sendKeys(PIN);
-		Thread.sleep(2000);
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-
-	}
+//public void Title() throws InterruptedException  {
+//	//EnterUserName.clear();
+//
+//		Thread.sleep(1000);
+//        Title.
+//	
+//		
+//		}
 
 
 
@@ -322,7 +311,7 @@ public void enterhardcodedPan_PIN(String PIN) throws InterruptedException  {
 
 
 
-		Thread.sleep(2000);
+		Thread.sleep(12000);
 		Continue.click();
 		
 		
@@ -340,16 +329,17 @@ Thread.sleep(5000);
 verify_finbox_phone_No.click();
 Thread.sleep(5000);
 proceed_Finbox.click();
-Thread.sleep(25000);
+Thread.sleep(40000);
 Use_Account.click();
 Thread.sleep(5000);
 Agree_Finbox.click();
 Thread.sleep(200000);
+
 }
 	
 	
 
-	public void LoanSelectrefresh() throws InterruptedException  {
+	public void refresh() throws InterruptedException  {
 
 	Thread.sleep(4000);
 	driver.navigate().refresh();
@@ -359,9 +349,9 @@ Thread.sleep(200000);
 	}
 	public void ApprovalPageContinue() throws InterruptedException {
 		//EnterUserName.clear();
-		Thread.sleep(7000);
+		Thread.sleep(3000);
 		Continue.click();
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 	public void employmentDetail() throws InterruptedException {
 		//EnterUserName.clear();
@@ -418,8 +408,6 @@ Thread.sleep(200000);
 	public void enterAadharandNext(String aadhar) throws InterruptedException  {
 		//EnterUserName.clear();
 		
-			Thread.sleep(5000);
-			Continue.click();
 
 			Thread.sleep(2000);
 			EnterAadhar.sendKeys(aadhar);
@@ -431,7 +419,7 @@ Thread.sleep(200000);
 	}
 	public void enterOtpandNext() throws InterruptedException {
 		//EnterUserName.clear();
-		Thread.sleep(30000);
+		Thread.sleep(40000);
 		Verify_OTP.click();
 	}
 	public void enterBankDetails(String accNo,String ReAccNo,String IFSC) throws InterruptedException  {
@@ -484,8 +472,11 @@ Thread.sleep(200000);
 	
 	public void continue_btn() {
 		try {
-			Thread.sleep(12000);
-			Continuebtn.click();
+			Thread.sleep(20000);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+
+			js.executeScript("arguments[0].click();", Continuebtn);
+		
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -549,7 +540,7 @@ Thread.sleep(200000);
 	}
 	
 	public void KFSAcceptance() throws InterruptedException {
-	    Thread.sleep(6000);
+	    Thread.sleep(20000);
 		kfsAccept.click();
 	}
 	public void DisbursalfromCRM() {

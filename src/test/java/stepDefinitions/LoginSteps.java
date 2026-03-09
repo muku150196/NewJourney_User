@@ -15,6 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -172,6 +173,7 @@ public void user_update_lender_id_in_lead_table() throws IOException, SQLExcepti
 	    // Write code here that turns the phrase above into concrete actions
 	   try {
 		lp.bankSearchFinbox(string);
+		
 	   } catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -197,6 +199,31 @@ public void user_update_lender_id_in_lead_table() throws IOException, SQLExcepti
 		}
 	}
 
+	@Then("user refresh")
+	public void user_refresh() {
+	    // Write code here that turns the phrase above into concrete actions
+	    try {
+			lp.refresh();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+//	 String actualTitle = driver.getTitle(); // Get the actual title
+//     String expectedTitle = "Katalon | Simplify Web Testing"; // Define the expected title
+//
+//     // Compare the actual and expected titles
+//     Assert.assertEquals(actualTitle, expectedTitle, "Page title name not matched or Problem in loading url page");
+
+//	@Then("user proceeds according to bureau decision")
+//	public void user_proceeds_according_to_bureau_decision() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    if(lp.findElement(By.xpath("//h1")).getText();)
+//	}
+
+	
+	
 
 	@When("User click Continue on offerpage")
 	public void user_click_continue_on_offerpage() {
